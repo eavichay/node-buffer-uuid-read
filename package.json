@@ -1,0 +1,24 @@
+{
+  "name": "node-buffer-uuid-read",
+  "version": "1.0.0",
+  "description": "Read binary buffer and convert to UUID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eavichay/node-buffer-uuid-read.git"
+  },
+  "keywords": [
+    "buffer",
+    "uuid",
+    "node"
+  ],
+  "author": "Avichay Eyal",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/eavichay/node-buffer-uuid-read/issues"
+  },
+  "homepage": "https://github.com/eavichay/node-buffer-uuid-read#readme"
+}
