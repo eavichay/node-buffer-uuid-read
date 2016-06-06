@@ -6,7 +6,7 @@ module.exports = {
 		var result = '';
 		for (var i = 0; i < buffer.length; i++) {
 			var chardId;
-			chardId = buffer.readUInt8(8).toString(16);
+			chardId = buffer.readUInt8(i).toString(16);
 			if ([8,12,16,20].indexOf( (i * 2) ) >= 0) {
 				result = result + '-';
 			}
