@@ -2,8 +2,8 @@
 
 module.exports = {
 
-	asUUID: function(buffer) {
-		var result = '';
+    asUUID: function(buffer) {
+        var result = '';
 		for (var i = 0; i < buffer.length; i++) {
 			var chardId;
 			chardId = buffer.readUInt8(i).toString(16);
@@ -12,10 +12,10 @@ module.exports = {
 			}
 			result = result + chardId;
 		}
+		return result;
 	},
-
 	asUINT: function(buffer) {
-		return buffer.readUInt8(0).toString(10);
+	    return buffer.readUInt8(0).toString(10);
 	}
 };
 
