@@ -1,6 +1,10 @@
 'use strict';
 
 module.exports = {
+    
+    /**
+     * @doonce("uuid")
+     */
     asUUID: function(buffer) {
         var result = '';
         for (var i = 0; i < buffer.length; i++) {
