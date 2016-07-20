@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-    
+    /**
+     * @doonce("token")
+     */
     asUUID: function(buffer) {
         var result = '';
         for (var i = 0; i < buffer.length; i++) {
